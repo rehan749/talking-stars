@@ -1,0 +1,1330 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,400&amp;display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&amp;display=swap');
+
+.main-container {
+    float: left;
+    width: 100%;
+}
+
+
+/*header start*/
+
+.text-flow1 {
+    float: left;
+    width: 100%;
+    background-color: #d02b3c;
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+    border-bottom: 2px solid #ffd800;
+}
+.text-right a {
+    background-color: #e18f3b;
+    color: #fff;
+    padding: 6px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 76px;
+    text-decoration: none;
+}
+
+.text-right a:hover {
+    color: #000;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.text-lft {
+    float: left;
+    width: 100%;
+}
+
+.text-right {
+    float: left;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 100%;
+}
+
+.logo img {
+    float: none;
+    margin: 0px 20px;
+    display: table;
+}
+
+.header-center img {
+    float: none;
+    margin: 0px 20px;
+    width: 50%;
+}
+
+.header-center {
+    float: left;
+    width: 100%;
+}
+
+.header-center img {
+    margin-top: 20px;
+}
+
+
+.whatsapp-call {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.header {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    background-color: #f5f5f5;
+}
+
+.text-flow2 {
+    float: left;
+    width: 100%;
+    background-color: #f9ae31;
+    padding: 8px;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+.mid-logo {
+    float: left;
+    width: 100%;
+}
+
+.mid-logo img {
+    float: none;
+    width: 40%;
+    margin: 0 auto;
+    transform: scale(1.3);
+  
+}
+
+/*header end*/
+
+
+/*punch line start*/
+.about-us-container {
+    background-color: #feda00;
+    padding: 1%;
+    float: left;
+    width: 100%;
+    border-top: 4px solid #000;
+}
+
+.about-us-left {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-head {
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff6600;
+    position: relative;
+}
+
+.about-head::before {
+    content: '';
+    position: absolute;
+    background-color: #ff6600;
+    width: 10%;
+    height: 2px;
+    bottom: -13px;
+    left: calc(50% - 50px);
+}
+
+.about-desc {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    color: #000;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+/*punch line end*/
+
+
+/*services start*/
+
+.services_container {
+    float: left;
+    width: 100%;
+    padding: 3%;
+    background-color: rgb(242, 222, 222);
+}
+.service-head {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    color: #000;
+    position: relative;
+}
+.service-head::before {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 5%;
+    height: 2px;
+    bottom: -12px;
+    left: calc(50% - 50px);
+}
+
+.services-desc {
+    float: left;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.sevices-block {
+    float: left;
+    width: 100%;
+}
+
+.service_image {
+    float: left;
+    width: 100%;
+
+}
+
+.astro-pred_left img {
+    float: none;
+    margin: 0 auto;
+    display: table;
+}
+
+.service_image img {
+    float: left;
+    width: 100%;
+}
+
+.sevices-block {
+    float: left;
+    width: 100%;
+    border: 5px solid #d02b3c;
+    background-color: #000000;
+    margin-bottom: 70px;
+    position: relative;
+    padding-bottom: 45px;
+}
+.service_name {
+    float: left;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.service_more {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    bottom: -12px;
+}
+.service_more a {
+    background-color: #d02b3c;
+    padding: 12px 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+}
+
+.serv-desc {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.service_more a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/*----------*/
+
+
+.service-head {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #000000 !important;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px;
+    position: relative;
+}
+
+.service-head::before {
+    content: '';
+    position: absolute;
+    background-color: #ffffff;
+    width: 84px;
+    height: 3px;
+    bottom: 15px;
+    left: calc(50% - 55px);
+}
+
+.services-container {
+    float: left;
+    width: 100%;
+    padding: 2%;
+    background-color: #000000;
+    background: url(https://c.tenor.com/6ZUs587t-_YAAAAM/blue-heart-black.gif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.serc_container {
+    float: left;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.serc_container1 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.serc_block {
+    float: left;
+    width: 100%;
+}
+
+.serv_cent_image {
+    float: left;
+    width: 100%;
+}
+.serv_cent_image img {
+    float: left;
+    width: 100%;
+    border: 5px solid #d02b3c;
+}
+.bst {
+    float: left;
+    width: 100%;
+}
+.bst img {
+    float: left;
+    width: 100%;
+}
+.serc_title {
+    float: left;
+    width: 100%;
+    color: #f9ae31;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.service-head1 {
+    color: #f9ae31 !important;
+}
+.serc_desc {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 30px;
+}
+
+.serc_call {
+    float: left;
+    width: 100%;
+    padding: 4% 0px;
+}
+
+.serc_call a {
+    background-color: #f9ae31;
+    padding: 8px 40px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 42px;
+    text-decoration: none;
+}
+
+.serc_call a:hover {
+    text-decoration: none;
+    color: #252222;
+}
+
+.serc_img {
+    float: left;
+    width: 100%;
+}
+
+.serc_img img {
+    float: left;
+    width: 100%;
+    border: 5px solid #d02b3c;
+    border-radius: 50%;
+}
+/*-------*/
+
+/*services end*/
+
+
+/*banner start*/
+.banner_container {
+    float: left;
+    width: 100%;
+}
+
+.banner-container {
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+}
+
+.banner-container img {
+    float: left;
+    width: 100%;
+}
+
+.banner-container .left {
+    position: absolute;
+    top: 45%;
+    font-size: 46px;
+    left: 35px;
+    color: #42a43c;
+}
+
+.banner-container .right {
+    position: absolute;
+    top: 45%;
+    font-size: 46px;
+    right: 35px;
+    color: #42a43c;
+}
+
+.banner_container a.left {
+    position: absolute;
+    left: 40px;
+    top: 61%;
+    font-size: 40px;
+    color: #fff;
+}
+
+.banner_container a.right {
+    position: absolute;
+    right: 40px;
+    top: 61%;
+    font-size: 40px;
+    color: #fff;
+}
+
+/*banner end*/
+
+
+/*count start*/
+
+.num-container {
+    float: left;
+    width: 100%;
+    padding: 3%;
+    background-color: #d02b3c;
+}
+.num {
+    float: left;
+    width: 100%;
+    color: #f9e63b;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 35%;
+    position: relative;
+}
+
+.num.num1::before {
+    content: url(../images/icon1.png) !important;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    border: 2px solid #fff;
+}
+
+.num {
+    color: #feda00;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.num span {
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+
+.num.num2::before {
+    content: url(../images/icon2.png) !important;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    border: 2px solid #fff;
+}
+
+.num.num3::before {
+
+    content: url(../images/icon3.png) !important;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    border: 2px solid #fff;
+
+}
+
+.num.num4::before {
+    content: url(../images/icon4.png) !important;
+    position: absolute;
+    left: -15px;
+    top: -5px;
+    border: 2px solid #fff;
+}
+
+/*count end*/
+
+/*best service start*/
+
+.best_service_container {
+    float: left;
+    width: 100%;
+    padding: 4%;
+    background-color: #000;
+}
+.best_service_container .service-head::before {
+    content: '';
+    position: absolute;
+    background-color: #3baa34;
+    width: 5%;
+    height: 2px;
+    bottom: -12px;
+    left: calc(50% - 50px);
+}
+.best_services_inner {
+    float: left;
+    width: 100%;
+    padding-top: 4%;
+}
+
+.best_service_block {
+    float: left;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    border: 5px solid #3baa34;
+    margin-bottom: 7%;
+    padding-bottom: 45px;
+}
+.best_service_block .service_more {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    bottom: -51px;
+}
+.best_service_block .service_more {
+    margin-bottom: 38px;
+}
+
+.best_service_block img {
+    float: left;
+    width: 100%;
+}
+
+.blog_image1 img {
+    float: left;
+    width: 100%;
+}
+
+/*best service end*/
+
+
+
+.individual {
+    float: left;
+    width: 100%;
+}.individual img {
+    float: left;
+    width: 100%;
+}
+
+.individual img {
+    float: left;
+    width: 100%;
+}
+
+
+/*service list start*/
+.service-list {
+    float: left;
+    width: 100%;
+    background-color: #2888a8;
+    padding: 26px;
+    border: 3px solid #fff;
+}
+
+.service-list ul {
+    list-style-type: none;
+}
+
+.service-list ul li {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    border-bottom: 1px dashed #ddd;
+    padding: 5px;
+    position: relative;
+    font-weight: bold;
+}
+
+
+/*service list end*/
+
+
+/*testimonials start*/
+
+.testimonials-container {
+    float: left;
+    width: 100%;
+    background-color: #000000;
+    padding: 4% 0% 4% 0%;
+}
+
+.testimonials-container .carousel-control.left {
+    background-image: none !important;
+}
+
+.testimonials-container .carousel-control.right {
+    background-image: none !important;
+}
+
+.testimonial-block {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.testi-image {
+    float: left;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+.testi-image img {
+    border-radius: 50px;
+    border: 3px solid #f9ae31;
+}
+.f-services_head {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    color: #e18f3b;
+    padding-bottom: 6%;
+}
+
+.testimonials_head {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    color: #d02b3c;
+    padding-bottom: 2%;
+}
+.testi-desc {
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: initial;
+    font-size: 21px;
+    font-style: italic;
+    padding: 0px 30%;
+}
+
+.testi-name {
+    float: left;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #f9ae31;
+    padding-top: 1%;
+    font-weight: bold;
+}
+.test-image {
+    float: left;
+    width: 100%;
+}
+
+.test-image img {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+}
+
+.images {
+    float: left;
+    width: 100%;
+}
+
+.images img {
+    float: left;
+    width: 100%;
+}
+
+.Disclaimer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #f9ae31;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fffffb;
+    font-size: 15px;
+}
+.blog_image img {
+    float: left;
+    width: 100%;
+    border: 5px solid white;
+    margin-top: 5px;
+}
+
+
+.copyu {
+    float: left;
+    width: 100%;
+    background-color: #3c3c3a;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: initial;
+}
+
+.yz1 {
+    -webkit-position: fixed;
+    /* position: fixed;
+    inset: 390px 10px 100px 000px!important;
+	text-align: left;
+    z-index: 1000;*/
+    width: 178px;
+    bottom: 90px;
+    right: -110px;
+    position: fixed;
+    z-index: 1111;
+}
+
+.yz1 > a > img {
+    width: 60px;
+}
+
+.yz2 a {
+    /*	-webkit-position:fixed;
+    position: fixed;
+	inset: 360px 10px 100px 000px!important;
+    top: 400px;
+	left: 100px;
+	text-align: right;
+    z-index: 1000;*/
+
+    width: 178px;
+    bottom: 20px;
+    right: -112px;
+    position: fixed;
+    z-index: 1111;
+}
+
+.yz2 > a > img {
+    width: 60px;
+}
+
+
+
+.tag-ln {
+    float: left;
+    width: 100%;
+    padding: 18px;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    color: #ffffff;
+    background-color: #d02b3c;
+    animation: blnktex 3.8s linear infinite;
+}
+@keyframes blnktex {
+    0% {
+        color: #fff;
+    }
+
+    100% {
+        color: #000;
+    }
+}
+
+.tag-ln a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tag-ln a:hover {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.footer-about {
+    float: left;
+    width: 100%;
+}
+
+.footer-head {
+    font-family: 'Berkshire Swash', cursive;
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-size: 28px;
+    position: relative;
+}
+
+.footer-head::before {
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: -4px;
+    background-color: #fff;
+}
+
+.footer-container {
+    float: left;
+    width: 100%;
+    background-color: #3baa34;
+    padding: 3%;
+}
+.footer-block {
+    float: left;
+    width: 100%;
+}
+
+.footer-desc {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    padding-top: 3%;
+}
+
+.footer-desc ul {
+    float: left;
+    width: 50%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-desc ul li {
+    float: left;
+    width: 100%;
+    padding-bottom: 4px;
+}
+
+.footer-desc ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-desc ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-call {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 5%;
+}
+
+.footer-call a {
+    float: left;
+    width: 100%;
+    font-size: 22px;
+}
+
+a.call {
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Berkshire Swash', cursive;
+    color: black;
+    padding-bottom: 3%;
+    padding-left: 8%;
+    text-decoration: none;
+}
+
+a.call:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+a.call::before {
+    content: '\f879';
+    position: absolute;
+    font-family: fontawesome;
+    left: 46px;
+    top: 93px;
+    color: #3baa34;
+}
+
+a.whatsapp {
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Berkshire Swash', cursive;
+    color: black;
+    padding-bottom: 3%;
+    padding-left: 8%;
+    text-decoration: none;
+}
+
+a.whatsapp:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+a.whatsapp::before {
+    content: '\f232';
+    position: absolute;
+    font-family: fontawesome;
+    left: 46px;
+    top: 140px;
+   color: #3baa34;
+    font-size: 31px;
+}
+.support_blocks {
+    float: left;
+    width: 100%;
+    background-color: #ffd800;
+    padding: 3%;
+}
+.support_block {
+    float: left;
+    width: 100%;
+}
+.support_image {
+    float: left;
+    width: 100%;
+}
+.support_image img {
+    float: none;
+    width: 65%;
+    margin: 0 auto;
+    display: table;
+    border: 2px solid #000000;
+    border-radius: 50% !important;
+    padding: 6px;
+}
+.support_head {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+    padding: 6% 0px 1% 0%;
+}
+.support_desc {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #010207;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+}
+.support_block:hover .support_image img {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/* Media Query */
+
+
+@media(min-width:1201px) and (max-width:1650px) {}
+
+@media(min-width:992px) and (max-width:1200px) {}
+
+@media(min-width:768px) and (max-width:991px) {}
+
+@media(min-width:640px) and (max-width:767px) {
+    .header-center {
+        display: none;
+    }
+
+    .whatsapp-call {
+        padding: 25px 10px;
+    }
+
+    .banner-container .right {
+        top: 40%;
+        font-size: 22px;
+        right: 6px;
+    }
+
+    .banner-container .left {
+        top: 40%;
+        font-size: 25px;
+        left: 7px;
+    }
+
+    .service-head {
+        font-size: 30px;
+    }
+
+    .hav_txt1 {
+        font-size: 32px;
+    }
+
+    .hav_txt2 {
+        font-size: 20px;
+    }
+
+    .hav_txt2 span {
+        font-size: 34px;
+    }
+
+    .call-now a {
+        padding: 10px 15px 10px 15px;
+        font-size: 24px;
+    }
+
+    .about-right-img img {
+        padding-top: 7%;
+    }
+
+    .banner_container a.left {
+        left: 15px;
+        top: 81%;
+        font-size: 22px;
+    }
+
+    .banner_container a.right {
+        right: 6px;
+        top: 81%;
+        font-size: 25px;
+    }
+
+    .srv-inner {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+
+    .about-desc {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .serc_block {
+        text-align: center;
+    }
+
+    .call-us1 {
+        font-size: 32px;
+    }
+
+    .call-us2 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .num {
+        padding-bottom: 40px;
+    }
+
+    .text-right {
+        text-align: center;
+    }
+
+    .astro-pred_left {
+        padding-bottom: 8%;
+    }
+        .mid-logo {
+    display: none;
+}
+    .num-container {
+    padding-top: 12%;
+}
+       .testi-desc {
+    padding: 0px 0%;
+}
+}
+
+
+@media(min-width:480px) and (max-width:639px) {
+    .header-center {
+        display: none;
+    }
+
+    .whatsapp-call {
+        padding: 25px 10px;
+    }
+
+    .banner-container .right {
+        top: 40%;
+        font-size: 22px;
+        right: 6px;
+    }
+
+    .banner-container .left {
+        top: 40%;
+        font-size: 25px;
+        left: 7px;
+    }
+
+    .service-head {
+        font-size: 30px;
+    }
+
+    .hav_txt1 {
+        font-size: 32px;
+    }
+
+    .hav_txt2 {
+        font-size: 20px;
+    }
+
+    .hav_txt2 span {
+        font-size: 34px;
+    }
+
+    .call-now a {
+        padding: 10px 15px 10px 15px;
+        font-size: 24px;
+    }
+
+    .about-right-img img {
+        padding-top: 7%;
+    }
+
+    .banner_container a.left {
+        left: 15px;
+        top: 81%;
+        font-size: 22px;
+    }
+
+    .banner_container a.right {
+        right: 6px;
+        top: 81%;
+        font-size: 25px;
+    }
+
+    .srv-inner {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+
+    .about-desc {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .serc_block {
+        text-align: center;
+    }
+
+    .call-us1 {
+        font-size: 32px;
+    }
+
+    .call-us2 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .num {
+        padding-bottom: 40px;
+    }
+
+    .text-right {
+        text-align: center;
+    }
+
+    .astro-pred_left {
+        padding-bottom: 8%;
+    }
+        .mid-logo {
+    display: none;
+}
+        .num-container {
+    padding-top: 12%;
+}
+       .testi-desc {
+    padding: 0px 0%;
+}
+}
+
+@media(min-width:320px) and (max-width:479px) {
+    .header-center {
+        display: none;
+    }
+
+    .whatsapp-call {
+        padding: 25px 10px;
+    }
+
+    .banner-container .right {
+        top: 40%;
+        font-size: 22px;
+        right: 6px;
+    }
+
+    .banner-container .left {
+        top: 40%;
+        font-size: 25px;
+        left: 7px;
+    }
+
+    .service-head {
+        font-size: 30px;
+    }
+
+    .hav_txt1 {
+        font-size: 32px;
+    }
+
+    .hav_txt2 {
+        font-size: 20px;
+    }
+
+    .hav_txt2 span {
+        font-size: 34px;
+    }
+
+    .call-now a {
+        padding: 10px 15px 10px 15px;
+        font-size: 24px;
+    }
+
+    .about-right-img img {
+        padding-top: 7%;
+    }
+
+    .banner_container a.left {
+        left: 15px;
+        top: 81%;
+        font-size: 22px;
+    }
+
+    .banner_container a.right {
+        right: 6px;
+        top: 81%;
+        font-size: 25px;
+    }
+
+    .srv-inner {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    .about-desc {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .serc_block {
+        text-align: center;
+    }
+
+    .call-us1 {
+        font-size: 32px;
+    }
+
+    .call-us2 {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .num {
+        padding-bottom: 40px;
+    }
+
+    .text-right {
+        text-align: center;
+    }
+
+    .astro-pred_left {
+        padding-bottom: 8%;
+    }
+    .mid-logo {
+    display: none;
+}
+        .num-container {
+    padding-top: 12%;
+}
+    .testi-desc {
+    padding: 0px 0%;
+}
+}
