@@ -1112,9 +1112,9 @@ a.whatsapp::before {
     .astro-pred_left {
         padding-bottom: 8%;
     }
-        /* .mid-logo {
-    display: none;
-} */
+        .mid-logo {
+    display: flex;
+}
     .num-container {
     padding-top: 12%;
 }
@@ -1188,8 +1188,6 @@ a.whatsapp::before {
         margin-bottom: 10px;
     }
 
-
-
     .about-desc {
         font-size: 18px;
         line-height: 28px;
@@ -1219,14 +1217,21 @@ a.whatsapp::before {
     .astro-pred_left {
         padding-bottom: 8%;
     }
-        /* .mid-logo {
-    display: none;
-} */
+        .mid-logo {
+    display: flex;
+}
         .num-container {
     padding-top: 12%;
 }
        .testi-desc {
     padding: 0px 0%;
+}
+.logo {
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 }
 
@@ -1324,13 +1329,20 @@ a.whatsapp::before {
     .astro-pred_left {
         padding-bottom: 8%;
     }
-    /* .mid-logo {
-    display: none;
-} */
+    .mid-logo {
+    display: flex;
+}
         .num-container {
     padding-top: 12%;
 }
     .testi-desc {
     padding: 0px 0%;
+}
+.logo {
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 }
