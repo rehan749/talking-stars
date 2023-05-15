@@ -50,6 +50,9 @@
 .logo {
     float: left;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo img {
@@ -100,6 +103,9 @@
 .mid-logo {
     float: left;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mid-logo img {
@@ -1106,9 +1112,9 @@ a.whatsapp::before {
     .astro-pred_left {
         padding-bottom: 8%;
     }
-        .mid-logo {
+        /* .mid-logo {
     display: none;
-}
+} */
     .num-container {
     padding-top: 12%;
 }
@@ -1213,9 +1219,9 @@ a.whatsapp::before {
     .astro-pred_left {
         padding-bottom: 8%;
     }
-        .mid-logo {
+        /* .mid-logo {
     display: none;
-}
+} */
         .num-container {
     padding-top: 12%;
 }
@@ -1318,9 +1324,9 @@ a.whatsapp::before {
     .astro-pred_left {
         padding-bottom: 8%;
     }
-    .mid-logo {
+    /* .mid-logo {
     display: none;
-}
+} */
         .num-container {
     padding-top: 12%;
 }
